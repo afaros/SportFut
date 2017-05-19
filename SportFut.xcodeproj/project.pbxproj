@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BB6F6D25202DC22C2DEA665 /* libPods-SportFut.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8EA1E10ED3248D63D66978 /* libPods-SportFut.a */; };
+		D5BFD9861ECD641C00BC2452 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BFD9851ECD641C00BC2452 /* main.m */; };
+		D5BFD9891ECD641C00BC2452 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BFD9881ECD641C00BC2452 /* AppDelegate.m */; };
+		D5BFD98C1ECD641C00BC2452 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BFD98B1ECD641C00BC2452 /* FirstViewController.m */; };
+		D5BFD98F1ECD641C00BC2452 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BFD98E1ECD641C00BC2452 /* SecondViewController.m */; };
+		D5BFD9921ECD641C00BC2452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5BFD9901ECD641C00BC2452 /* Main.storyboard */; };
+		D5BFD9941ECD641C00BC2452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BFD9931ECD641C00BC2452 /* Assets.xcassets */; };
+		D5BFD9971ECD641C00BC2452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5BFD9951ECD641C00BC2452 /* LaunchScreen.storyboard */; };
+		D5BFD9A51ECD7B2200BC2452 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5BFD9A41ECD7B2200BC2452 /* GoogleService-Info.plist */; };
+		D5BFD9A91ECD7D4500BC2452 /* equipoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BFD9A71ECD7D4500BC2452 /* equipoCell.m */; };
+		D5BFD9AA1ECD7D4500BC2452 /* equipoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5BFD9A81ECD7D4500BC2452 /* equipoCell.xib */; };
+		D5BFD9AE1ECD7E3200BC2452 /* Equipo.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BFD9AD1ECD7E3200BC2452 /* Equipo.m */; };
+		D5BFD9B11ECD8EE100BC2452 /* Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BFD9B01ECD8EE100BC2452 /* Functions.m */; };
+		D5BFD9B51ECEA44E00BC2452 /* partidoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BFD9B31ECEA44E00BC2452 /* partidoCell.m */; };
+		D5BFD9B61ECEA44E00BC2452 /* partidoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5BFD9B41ECEA44E00BC2452 /* partidoCell.xib */; };
+		D5BFD9B91ECEAFBB00BC2452 /* agregarPartidoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BFD9B81ECEAFBB00BC2452 /* agregarPartidoViewController.m */; };
+		DF581D811ECE10E50063638D /* agregarEquipoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF581D801ECE10E50063638D /* agregarEquipoViewController.m */; };
+		DF581D841ECE130F0063638D /* Partido.m in Sources */ = {isa = PBXBuildFile; fileRef = DF581D831ECE130F0063638D /* Partido.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05E01DD6940082F8A6E946F1 /* Pods-SportFut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportFut.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SportFut/Pods-SportFut.debug.xcconfig"; sourceTree = "<group>"; };
+		6C9E3E17315398C25CCE38D8 /* Pods-SportFut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportFut.release.xcconfig"; path = "Pods/Target Support Files/Pods-SportFut/Pods-SportFut.release.xcconfig"; sourceTree = "<group>"; };
+		BB8EA1E10ED3248D63D66978 /* libPods-SportFut.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SportFut.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5BFD9811ECD641C00BC2452 /* SportFut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportFut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5BFD9851ECD641C00BC2452 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5BFD9871ECD641C00BC2452 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5BFD9881ECD641C00BC2452 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5BFD98A1ECD641C00BC2452 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D5BFD98B1ECD641C00BC2452 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D5BFD98D1ECD641C00BC2452 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D5BFD98E1ECD641C00BC2452 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D5BFD9911ECD641C00BC2452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5BFD9931ECD641C00BC2452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5BFD9961ECD641C00BC2452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5BFD9981ECD641C00BC2452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5BFD9A41ECD7B2200BC2452 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D5BFD9A61ECD7D4500BC2452 /* equipoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = equipoCell.h; sourceTree = "<group>"; };
+		D5BFD9A71ECD7D4500BC2452 /* equipoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = equipoCell.m; sourceTree = "<group>"; };
+		D5BFD9A81ECD7D4500BC2452 /* equipoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = equipoCell.xib; sourceTree = "<group>"; };
+		D5BFD9AC1ECD7E3200BC2452 /* Equipo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Equipo.h; sourceTree = "<group>"; };
+		D5BFD9AD1ECD7E3200BC2452 /* Equipo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Equipo.m; sourceTree = "<group>"; };
+		D5BFD9AF1ECD8EE100BC2452 /* Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Functions.h; sourceTree = "<group>"; };
+		D5BFD9B01ECD8EE100BC2452 /* Functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Functions.m; sourceTree = "<group>"; };
+		D5BFD9B21ECEA44E00BC2452 /* partidoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = partidoCell.h; sourceTree = "<group>"; };
+		D5BFD9B31ECEA44E00BC2452 /* partidoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = partidoCell.m; sourceTree = "<group>"; };
+		D5BFD9B41ECEA44E00BC2452 /* partidoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = partidoCell.xib; sourceTree = "<group>"; };
+		D5BFD9B71ECEAFBB00BC2452 /* agregarPartidoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = agregarPartidoViewController.h; sourceTree = "<group>"; };
+		D5BFD9B81ECEAFBB00BC2452 /* agregarPartidoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = agregarPartidoViewController.m; sourceTree = "<group>"; };
+		DF581D7F1ECE10E50063638D /* agregarEquipoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = agregarEquipoViewController.h; sourceTree = "<group>"; };
+		DF581D801ECE10E50063638D /* agregarEquipoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = agregarEquipoViewController.m; sourceTree = "<group>"; };
+		DF581D821ECE130F0063638D /* Partido.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Partido.h; sourceTree = "<group>"; };
+		DF581D831ECE130F0063638D /* Partido.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Partido.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5BFD97E1ECD641C00BC2452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BB6F6D25202DC22C2DEA665 /* libPods-SportFut.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2509DF1AE9E12A03A7C4821E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB8EA1E10ED3248D63D66978 /* libPods-SportFut.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A589B4D93B5A6CD3645DF569 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05E01DD6940082F8A6E946F1 /* Pods-SportFut.debug.xcconfig */,
+				6C9E3E17315398C25CCE38D8 /* Pods-SportFut.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5BFD9781ECD641C00BC2452 = {
+			isa = PBXGroup;
+			children = (
+				D5BFD9831ECD641C00BC2452 /* SportFut */,
+				D5BFD9821ECD641C00BC2452 /* Products */,
+				A589B4D93B5A6CD3645DF569 /* Pods */,
+				2509DF1AE9E12A03A7C4821E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5BFD9821ECD641C00BC2452 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5BFD9811ECD641C00BC2452 /* SportFut.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5BFD9831ECD641C00BC2452 /* SportFut */ = {
+			isa = PBXGroup;
+			children = (
+				D5BFD9931ECD641C00BC2452 /* Assets.xcassets */,
+				DF604F291ECF81CF00A99C8B /* ViewControllers */,
+				D5BFD9AB1ECD7E1900BC2452 /* Model */,
+				D5BFD9841ECD641C00BC2452 /* Supporting Files */,
+				D5BFD9871ECD641C00BC2452 /* AppDelegate.h */,
+				D5BFD9881ECD641C00BC2452 /* AppDelegate.m */,
+				D5BFD9901ECD641C00BC2452 /* Main.storyboard */,
+				D5BFD9A61ECD7D4500BC2452 /* equipoCell.h */,
+				D5BFD9A71ECD7D4500BC2452 /* equipoCell.m */,
+				D5BFD9A81ECD7D4500BC2452 /* equipoCell.xib */,
+				D5BFD9B21ECEA44E00BC2452 /* partidoCell.h */,
+				D5BFD9B31ECEA44E00BC2452 /* partidoCell.m */,
+				D5BFD9B41ECEA44E00BC2452 /* partidoCell.xib */,
+				D5BFD9951ECD641C00BC2452 /* LaunchScreen.storyboard */,
+				D5BFD9981ECD641C00BC2452 /* Info.plist */,
+			);
+			path = SportFut;
+			sourceTree = "<group>";
+		};
+		D5BFD9841ECD641C00BC2452 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5BFD9AF1ECD8EE100BC2452 /* Functions.h */,
+				D5BFD9B01ECD8EE100BC2452 /* Functions.m */,
+				D5BFD9851ECD641C00BC2452 /* main.m */,
+				D5BFD9A41ECD7B2200BC2452 /* GoogleService-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5BFD9AB1ECD7E1900BC2452 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D5BFD9AC1ECD7E3200BC2452 /* Equipo.h */,
+				D5BFD9AD1ECD7E3200BC2452 /* Equipo.m */,
+				DF581D821ECE130F0063638D /* Partido.h */,
+				DF581D831ECE130F0063638D /* Partido.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DF604F291ECF81CF00A99C8B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5BFD98A1ECD641C00BC2452 /* FirstViewController.h */,
+				D5BFD98B1ECD641C00BC2452 /* FirstViewController.m */,
+				D5BFD98D1ECD641C00BC2452 /* SecondViewController.h */,
+				D5BFD98E1ECD641C00BC2452 /* SecondViewController.m */,
+				DF581D7F1ECE10E50063638D /* agregarEquipoViewController.h */,
+				DF581D801ECE10E50063638D /* agregarEquipoViewController.m */,
+				D5BFD9B71ECEAFBB00BC2452 /* agregarPartidoViewController.h */,
+				D5BFD9B81ECEAFBB00BC2452 /* agregarPartidoViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5BFD9801ECD641C00BC2452 /* SportFut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5BFD99B1ECD641C00BC2452 /* Build configuration list for PBXNativeTarget "SportFut" */;
+			buildPhases = (
+				78634028497C2EAE44EDDF13 /* [CP] Check Pods Manifest.lock */,
+				D5BFD97D1ECD641C00BC2452 /* Sources */,
+				D5BFD97E1ECD641C00BC2452 /* Frameworks */,
+				D5BFD97F1ECD641C00BC2452 /* Resources */,
+				2E6DFEA49CD971C922615AF7 /* [CP] Embed Pods Frameworks */,
+				3100EEE8684C83A45403DE77 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportFut;
+			productName = SportFut;
+			productReference = D5BFD9811ECD641C00BC2452 /* SportFut.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5BFD9791ECD641C00BC2452 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Pixlab;
+				TargetAttributes = {
+					D5BFD9801ECD641C00BC2452 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D5BFD97C1ECD641C00BC2452 /* Build configuration list for PBXProject "SportFut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5BFD9781ECD641C00BC2452;
+			productRefGroup = D5BFD9821ECD641C00BC2452 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5BFD9801ECD641C00BC2452 /* SportFut */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5BFD97F1ECD641C00BC2452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BFD9971ECD641C00BC2452 /* LaunchScreen.storyboard in Resources */,
+				D5BFD9A51ECD7B2200BC2452 /* GoogleService-Info.plist in Resources */,
+				D5BFD9941ECD641C00BC2452 /* Assets.xcassets in Resources */,
+				D5BFD9921ECD641C00BC2452 /* Main.storyboard in Resources */,
+				D5BFD9AA1ECD7D4500BC2452 /* equipoCell.xib in Resources */,
+				D5BFD9B61ECEA44E00BC2452 /* partidoCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E6DFEA49CD971C922615AF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SportFut/Pods-SportFut-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3100EEE8684C83A45403DE77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SportFut/Pods-SportFut-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78634028497C2EAE44EDDF13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5BFD97D1ECD641C00BC2452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BFD9A91ECD7D4500BC2452 /* equipoCell.m in Sources */,
+				D5BFD9B51ECEA44E00BC2452 /* partidoCell.m in Sources */,
+				D5BFD98F1ECD641C00BC2452 /* SecondViewController.m in Sources */,
+				D5BFD9891ECD641C00BC2452 /* AppDelegate.m in Sources */,
+				DF581D841ECE130F0063638D /* Partido.m in Sources */,
+				DF581D811ECE10E50063638D /* agregarEquipoViewController.m in Sources */,
+				D5BFD9B91ECEAFBB00BC2452 /* agregarPartidoViewController.m in Sources */,
+				D5BFD98C1ECD641C00BC2452 /* FirstViewController.m in Sources */,
+				D5BFD9861ECD641C00BC2452 /* main.m in Sources */,
+				D5BFD9AE1ECD7E3200BC2452 /* Equipo.m in Sources */,
+				D5BFD9B11ECD8EE100BC2452 /* Functions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5BFD9901ECD641C00BC2452 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5BFD9911ECD641C00BC2452 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5BFD9951ECD641C00BC2452 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5BFD9961ECD641C00BC2452 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5BFD9991ECD641C00BC2452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5BFD99A1ECD641C00BC2452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5BFD99C1ECD641C00BC2452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E01DD6940082F8A6E946F1 /* Pods-SportFut.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SportFut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.SportFut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5BFD99D1ECD641C00BC2452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C9E3E17315398C25CCE38D8 /* Pods-SportFut.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SportFut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.SportFut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5BFD97C1ECD641C00BC2452 /* Build configuration list for PBXProject "SportFut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5BFD9991ECD641C00BC2452 /* Debug */,
+				D5BFD99A1ECD641C00BC2452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5BFD99B1ECD641C00BC2452 /* Build configuration list for PBXNativeTarget "SportFut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5BFD99C1ECD641C00BC2452 /* Debug */,
+				D5BFD99D1ECD641C00BC2452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5BFD9791ECD641C00BC2452 /* Project object */;
+}
