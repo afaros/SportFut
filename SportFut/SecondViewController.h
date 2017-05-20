@@ -13,7 +13,9 @@
 @import Firebase;
 @import FirebaseDatabaseUI;
 
-@interface SecondViewController : UIViewController <UITableViewDelegate>
+@interface SecondViewController : UIViewController <UITableViewDelegate>{
+    BOOL isSearching;
+}
 
 // [START define_database_reference]
 @property (strong, nonatomic) FIRDatabaseReference *ref;

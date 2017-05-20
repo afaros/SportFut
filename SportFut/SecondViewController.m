@@ -35,6 +35,7 @@ FIRDatabaseHandle _refHandlePartidos;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
+    isSearching = NO;
     [_partidos removeAllObjects];
     // [START child_event_listener]
     // Listen for new club in the Firebase database
@@ -118,15 +119,22 @@ FIRDatabaseHandle _refHandlePartidos;
 }
 
 #pragma mark - Search Implementation
+
+- (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar {
+    isSearching = YES;
+}
+
 - (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
     FIRDatabaseReference *ref = [FIRDatabase database].reference;
-
-    if([searchText isEqualToString:@""]){
+    
+    if([searchText length] == 0) {
+        isSearching = NO;
         _postRef = [ref child:@"partidos"];
         [_partidos removeAllObjects];
     } else {
+        isSearching = YES;
         _postRef = [[[ref child:@"partidos"] queryOrderedByChild:@"nombreEquipo1"]queryEqualToValue:searchText];
-
+        
         [_partidos removeAllObjects];
         
         // [START child_event_listener]
@@ -171,7 +179,8 @@ FIRDatabaseHandle _refHandlePartidos;
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Antes de ir a agregar limpiamos el buscador
-    if ([[segue identifier] isEqualToString:@"agregarPartido"]) {
+    if ([[segue identifier] isEqualToString:@"agregarPartido"] && isSearching) {
+        isSearching = NO;
         _searchTab.text = @"";
         [self searchBar:self.searchTab textDidChange:@""];
     }
